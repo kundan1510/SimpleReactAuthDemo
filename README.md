@@ -1,15 +1,20 @@
-# React + Vite
+# Simple React Auth Demo
 
-Welcome to our ReactJS tutorial where we'll cover the essential steps for implementing authorization and authentication in your React applications. In this video, you'll learn how to create a login form, manage tokens, store tokens in local storage, and secure your routes. Perfect for beginners and intermediate developers!
+1. Open folder in visual studio
+2. Npm install
+3. Npm run dev
+4. Browse in chrome: http://localhost:5173/
+   Used Fake api: https://fakeapi.platzi.com/en/rest/auth-jwt/
+   "email": "john@mail.com",
+   "password": "changeme"
 
-🔹 Topics Covered:
-- Setting up a ReactJS project
-- Creating a login form
-- Handling login submissions with Axios
-- Storing tokens in local storage
-- Using tokens for authorized requests
-- Creating protected routes
-- Fetching and displaying user profile data
-- Implementing logout functionality
+Git Steps:
 
-Video Link : https://youtu.be/BUTdsXM3ljI
+1. git init
+2. git add README.md
+3. You can press Ctrl+Shift+P on your Visual Studio Code and then search for gitignore. Click the add
+   gitignore option then you are good to go.
+4. git commit -m "first commit"
+5. git branch -M main
+6. git remote add origin https://github.com/kundan1510/SimpleReactAuthDemo.git
+7. git push -u origin main
